@@ -5,8 +5,11 @@ JSON + Template = Output
 
 ##Inspiration
 http://google-ctemplate.googlecode.com
+
 http://www.json.org
+
 http://code.google.com/p/json-template
+
 http://json-template.googlecode.com/svn/trunk/doc/On-Design-Minimalism.html
 
 ##Features
