@@ -1,25 +1,24 @@
 # Go json templating package.
 
-##Overview
+## Overview
 JSON + Template = Output
 
-##Inspiration
-http://google-ctemplate.googlecode.com
+## Inspiration
+* http://google-ctemplate.googlecode.com
+* http://www.json.org
+* http://code.google.com/p/json-template
+* http://json-template.googlecode.com/svn/trunk/doc/On-Design-Minimalism.html
 
-http://www.json.org
+## Features
 
-http://code.google.com/p/json-template
+* Conditions.
+* Includes.
+* Lexical scope.
+* Repeated sections.
+* Change delimiter.
 
-http://json-template.googlecode.com/svn/trunk/doc/On-Design-Minimalism.html
+## Tags
 
-##Features
-Conditions.
-Includes.
-Lexical scope.
-Repeated sections.
-Change delimiter.
-
-##Tags
 	{{!a}}          Comment.
 	{{#a}}...{{/a}} Enter array.
 	{{$a}}...{{/a}} Enter object.
@@ -29,7 +28,8 @@ Change delimiter.
 	{{*a}}          Print. To access element of array use "{{*}}".
 	{{=<ld> <rd>}}  Change delimiters.
 
-##Examples
+## Examples
+
 	Print a symbol.
 	JSON:
 		{"a": "foo", "b": "bar"}
